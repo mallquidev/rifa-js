@@ -31,5 +31,5 @@ function generarGanador() {
     const elegido = tickets[numElegido];
 
     const divGanador = document.getElementById('ganador')
-    divGanador.innerHTML = `<h1>GANADOR!!!</h1> <p>${elegido.name}</p>`
+    divGanador.innerHTML = `<h1>GANADOR!!!</h1> <p>${elegido.name} ${elegido.numRandom}</p>`
 }
